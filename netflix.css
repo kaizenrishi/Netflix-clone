@@ -1,0 +1,173 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.img {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.498) 50%,
+      rgba(0, 0, 0, 0.498) 50%
+    ),
+    url(bg/netflix.jpg);
+  background-repeat: no-repeat;
+  height: 150vh;
+}
+
+.logo {
+  color: rgba(204, 6, 6, 0.927);
+  font-size: 2.8rem;
+  padding-top: 13px;
+  margin-left: 130px;
+  font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu,
+    sans-serif;
+  border: 0px solid black;
+  width: 100px;
+}
+a {
+  text-decoration: none;
+  color: rgba(204, 6, 6, 0.927);
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.form {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.708) 50%,
+    rgba(0, 0, 0, 0.662) 50%
+  );
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+  color: white;
+  height: 570px;
+  width: 410px;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 80px;
+  padding: 30px;
+}
+
+.sign {
+  font-size: 25px;
+  font-family: sans-serif;
+  font-weight: 800;
+  margin-left: 40px;
+  padding-top: 14px;
+  padding-bottom: 40px;
+}
+
+.info {
+  margin-left: 40px;
+}
+
+/* .input::placeholder {
+  border: 2px solid pink;
+  border-radius: 5px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.653) 50%,
+    rgba(0, 0, 0, 0.607) 50%
+  );
+} */
+
+form input {
+  background-color: rgba(30, 29, 29, 0.689);
+  width: 90%;
+  padding-top: 10px;
+  padding: 22px 10px;
+  margin: 0px 2px;
+  border-radius: 5px;
+  border: 1px solid rgba(219, 217, 217, 0.799);
+}
+
+::placeholder {
+  margin-left: 20px;
+  font-size: 15px;
+  color: rgba(207, 205, 205, 0.671);
+}
+.btn {
+  width: 23vw;
+  font-size: 17 px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: rgb(244, 7, 7);
+  color: rgb(245, 239, 239);
+  border: 0px solid red;
+  padding: 12px 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: white;
+  /* background: linear-gradient(to right, #ff105f, #ffad06); */
+}
+
+.fgcode {
+  padding-top: 28px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.fgcode:hover {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.548);
+  text-decoration: underline;
+}
+
+.form-2 {
+  font-size: 18px;
+  padding-top: 28px;
+  color: rgba(255, 255, 255, 0.831);
+  margin-left: 4px;
+  padding-top: 25px;
+}
+
+.last {
+  font-size: 18px;
+  padding-top: 28px;
+  color: rgba(255, 255, 255, 0.548);
+}
+
+.col {
+  color: white;
+}
+
+.col:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.para {
+  font-size: 15px;
+  padding-top: 20px;
+  color: rgba(255, 255, 255, 0.548);
+}
+
+.l {
+  color: blue;
+}
+.l:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* .footer {
+  border: 2px solid white;
+  width: 100vw;
+  height: 50px;
+  color: aqua;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-top: 800px;
+} */
